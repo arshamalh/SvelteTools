@@ -1,7 +1,8 @@
 <script>
+  export let text = "";
 </script>
 
-<button type="submit"><slot /></button>
+<button type="submit">{text}</button>
 
 <style>
   button {
